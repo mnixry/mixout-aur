@@ -14,7 +14,7 @@ source=(
     "tabby-${pkgver}-linux.pacman::https://github.com/Eugeny/tabby/releases/download/v${pkgver}/tabby-${pkgver}-linux.pacman"
 )
 sha256sums=(
-    "d28943ac2febdcface09cef747e2f99f006ac8e588ed3e809f911d208c0c63da"
+    "cb3cf9f768be48ec9b3aa3d24cf3c2b1945edb4bc0483ce0b5b9b50e8dd1329e"
 )
 
 package() {
