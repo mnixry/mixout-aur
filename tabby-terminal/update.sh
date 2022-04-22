@@ -6,7 +6,7 @@ pip install lastversion
 
 export REPO_URL="https://github.com/Eugeny/tabby"
 export PACKAGE_VER=$(python -m lastversion $REPO_URL)
-export FILENAME="tabby-$PACKAGE_VER-linux.pacman"
+export FILENAME="tabby-$PACKAGE_VER-linux-x64.pacman"
 export RELEASE_URL="$REPO_URL/releases/download/v$PACKAGE_VER/$FILENAME"
 
 curl -L "$RELEASE_URL" > $FILENAME
