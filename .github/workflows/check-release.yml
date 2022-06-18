@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-python@v2.3.2
 
       - name: Run update script
-        run: ./tabby-terminal/update.sh
+        run: ./tabby-bin/update.sh
       
       - uses: EndBug/add-and-commit@v8
         with:

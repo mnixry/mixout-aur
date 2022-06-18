@@ -1,4 +1,4 @@
-pkgname=tabby-terminal
+pkgname=tabby-bin
 pkgver=<PKGVER>
 pkgrel=1
 pkgdesc="A terminal for a modern age"
